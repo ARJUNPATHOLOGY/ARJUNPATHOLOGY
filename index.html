@@ -2,82 +2,157 @@
 <html>
 <head>
   <title>Arjun Pathology</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       font-family: Arial;
       margin: 0;
-      background: #f4f6f8;
-      text-align: center;
+      background: #f5f5f5;
     }
+
     header {
-      background: #0077b6;
+      background: #0A74DA;
       color: white;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    header img {
+      width: 60px;
+      margin-right: 15px;
+    }
+
+    section {
       padding: 20px;
     }
-    .container {
-      padding: 20px;
+
+    h2 {
+      color: #0A74DA;
     }
+
     .box {
       background: white;
-      margin: 15px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    a.button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin-top: 10px;
-      background: #0077b6;
-      color: white;
-      text-decoration: none;
+      padding: 10px;
+      margin: 10px 0;
       border-radius: 5px;
     }
-    a.whatsapp {
-      background: #25D366;
+
+    footer {
+      background: #0A74DA;
+      color: white;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 
 <body>
 
+<!-- ================= LOGO SECTION ================= -->
 <header>
+
+  <!-- 👉 यहाँ अपना LOGO डालना है -->
+  <!-- Step: logo.svg या logo.png upload करो GitHub में -->
+  <img src="logo.svg">
+
+  <!-- 👉 यहाँ अपने lab का नाम -->
   <h1>Arjun Pathology</h1>
-  <p>Trusted Diagnostic Services</p>
+
 </header>
 
-<div class="container">
+
+<!-- ================= ABOUT ================= -->
+<section>
+  <h2>About Us</h2>
+
+  <!-- 👉 यहाँ अपनी pathology का description लिख सकते हो -->
+  <p>We provide accurate and reliable diagnostic services with modern technology. 
+सभी वरिष्ठ नागरिक जिनका उम्र 60 वर्ष से अधिक उनके लिए जाँच में 10-15% तक की छूट दिया जाइएगा</p>
+</section>
+
+
+<!-- ================= TEST LIST ================= -->
+<section>
+  <h2>Available Tests</h2>
+
+  <!-- 👉 यहाँ जितने चाहो test नाम add करो -->
+  <div class="box">CBC (Complete Blood Count)</div>
+  <div class="box">Blood Sugar</div>
+  <div class="box">Thyroid Profile</div>
+  <div class="box">Liver Function Test</div>
+  <div class="box">Kidney Function Test</div>
+  <div class="box">Vitamin D</div>
+  <div class="box">Vitamin B12</div>
+  <div class="box">Dengue Test</div>
+  <div class="box">Malaria Test</div>
+  <div class="box">HIV Test</div>
+  <div class="box">HCV Test</div>
+  <div class="box">HBsAg Test</div>
+  <div class="box">Urine Test</div>
+  <div class="box">Stool Test</div>
+  <div class="box">Sputum Test</div>
+  <div class="box">T.B Test</div>
+  <div class="box">Cancer Test</div>
+  <div class="box">All Blood Test</div>
+
+
+<!-- ================= TEST IMAGES ================= -->
+<section>
+  <h2>Popular Tests</h2>
+
+  <!-- 👉 यहाँ फोटो डालना है -->
+  <!-- Step: image upload करो GitHub में (cbc.jpg) -->
 
   <div class="box">
-    <h2>📞 Contact Us</h2>
-    <p>Phone: +91 6207753373</p>
-
-    <a class="button whatsapp" 
-       href="https://wa.me/+916207753373" target="_blank">
-       Chat on WhatsApp
-    </a>
+    <h3>CBC Test</h3>
+    <img src="cbc.jpg" width="200">
   </div>
 
+  <!-- 👉 दूसरा फोटो -->
   <div class="box">
-    <h2>🧪 Our Services</h2>
-    <p>All Blood Tests, Urine Tests, Health Packages Available</p>
+    <h3>Blood Sugar Test</h3>
+    <img src="sugar.jpg" width="200">
   </div>
 
-  <div class="box">
-    <h2>⭐ Patient Review</h2>
-    <p>Click below to give your feedback</p>
+</section>
 
-    <!-- ✅ तुम्हारा Google Form लिंक यहाँ add किया गया है -->
-    <a class="button" 
-       href="https://docs.google.com/forms/d/e/1FAIpQLSdO-gQmVLW5cp6VM1AGhYK10v6iyOSsrJ3i0eBCPvfFASHMBA/viewform" 
-       target="_blank">
-      Give Review
-    </a>
-  
-  </div>
 
-</div>
+<!-- ================= REVIEW ================= -->
+<section>
+  <h2>Give Your Review</h2>
+
+  <!-- 👉 यहाँ अपना Google Form link डालना है -->
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdO-gQmVLW5cp6VM1AGhYK10v6iyOSsrJ3i0eBCPvfFASHMBA/viewform"
+    width="100%" height="500">
+  </iframe>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section>
+  <h2>Contact Us</h2>
+
+  <!-- 👉 यहाँ अपना PHONE NUMBER डालो -->
+  <p>Phone: 6207753373</p>
+
+  <!-- 👉 यहाँ WhatsApp नंबर डालो (same भी हो सकता है) -->
+  <p>WhatsApp: 6207753373</p>
+
+  <!-- 👉 यहाँ अपना EMAIL डालो -->
+  <p>Email: arjunpathology07@gmail.com</p>
+
+  <!-- 👉 यहाँ अपना ADDRESS डाल सकते हो -->
+  <p>Address:अली मार्केट,मेदनी चौकी, लखीसराय, पिन कोड 811106, बिहार </p>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 Arjun Pathology</p>
+</footer>
 
 </body>
 </html>
